@@ -1,0 +1,38 @@
+#service, #team, #history {
+	margin-top: 100px;
+}
+#service {
+	background-color: #F4F4F5;
+}
+
+@media(max-width: 991px) {
+	#service, #team {
+		margin-top: 50px;
+	}
+}
+@media(min-width: 992px) {
+	.text-help {
+		width: 75%;
+	}
+}
+@media(max-width: 767px) {
+	#title-founder-1, #title-founder-2, #title-founder-3 {
+		font-size: 98%;
+	}
+}
+@media(max-width: 575px) {
+	.card {
+		width: 80%;
+	}
+	#history, #service {
+		width: 80%;
+	}
+}
+@media(min-width: 576px) {
+	#history h1 {
+		font-size: 50px;
+	}
+	#history p {
+		font-size: 20px;
+	}
+}
